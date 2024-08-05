@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rag-pdf"
+version = "0.1.0"
+description = ""
+authors = ["matifonseca <fonseca.196@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.2.11"
+Chroma = "^0.2.0"
+jupyter = "^1.0.0"
+langchain-community = "^0.2.10"
+pypdf = "^4.3.1"
+ollama = "^0.3.1"
+chromadb = "^0.5.5"
+sentence-transformers = "^3.0.1"
+langchain-chroma = "^0.1.2"
+langchain-ollama = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
